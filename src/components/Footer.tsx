@@ -7,16 +7,17 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="flex flex-col items-start">
+          <div>
             <Image
               src="/logo.png?height=60&width=120"
               alt="Inderini Coffee"
               width={120}
-              height={60}
+              height={40}
               className="h-10 w-auto mb-4"
             />
-            <h2 className="text-xl font-bold mb-1">Inderini</h2>
-            <p className="text-gray-400 text-sm">Serving Nepal Coffee Since 1999</p>
+            <p className="text-gray-400 text-sm">
+              Serving Nepal Coffee Since 1999
+            </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -71,8 +72,6 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: <a href="mailto:info@inderini.com" className="hover:text-white">info@inderini.com</a></li>
-              <li>Phone: <a href="tel:+977123456789" className="hover:text-white">+977 123-456789</a></li>
               <li>Loyalty App</li>
               <li>Career Opportunities</li>
               <li>Support</li>
