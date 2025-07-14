@@ -7,17 +7,16 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
+          <div className="flex flex-col items-start">
             <Image
-              src="/inderini.svg?height=40&width=120"
-              alt="Inderini"
+              src="/logo.png?height=60&width=120"
+              alt="Inderini Coffee"
               width={120}
-              height={40}
-              className="h-10 w-auto mb-4 filter brightness-0 invert"
+              height={60}
+              className="h-10 w-auto mb-4"
             />
-            <p className="text-gray-400 text-sm">
-              Serving Nepal Coffee Since 1999
-            </p>
+            <h2 className="text-xl font-bold mb-1">Inderini</h2>
+            <p className="text-gray-400 text-sm">Serving Nepal Coffee Since 1999</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -72,6 +71,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
+              <li>Email: <a href="mailto:info@inderini.com" className="hover:text-white">info@inderini.com</a></li>
+              <li>Phone: <a href="tel:+977123456789" className="hover:text-white">+977 123-456789</a></li>
               <li>Loyalty App</li>
               <li>Career Opportunities</li>
               <li>Support</li>
@@ -79,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Inderini Coffee. All rights reserved.</p>
+          <p>&copy; 2025 Inderini Coffee. All rights reserved.</p>
         </div>
       </div>
     </footer>
