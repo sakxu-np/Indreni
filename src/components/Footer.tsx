@@ -9,11 +9,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Image
-              src="/inderini.svg"
-              alt="Inderini"
+              src="/logo.png?height=60&width=120"
+              alt="Inderini Coffee"
               width={120}
               height={40}
-              className="h-10 w-auto mb-4 filter brightness-0 invert"
             />
             <p className="text-gray-400 text-sm">
               Serving Nepal Coffee Since 1999
