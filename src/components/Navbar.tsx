@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronDown, Search } from "lucide-react";
+import { LuMenu } from 'react-icons/lu';
 
 const Navbar = () => {
   return (
@@ -17,6 +18,7 @@ const Navbar = () => {
               className="h-10 w-auto"
             />
           </div>
+          <div className=""> <LuMenu/></div>
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
