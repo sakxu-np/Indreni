@@ -7,6 +7,7 @@ import ExpressSection from "@/components/landing/ExpressSection";
 import HeroSection from "@/components/landing/HeroSection";
 import ProductsSection from "@/components/landing/ProductsSection";
 
+
 export default function HimalayanJavaLanding() {
   return (
     <div className="min-h-screen bg-white">
